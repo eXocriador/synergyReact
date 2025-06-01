@@ -1,0 +1,45 @@
+.header {
+  background-color: transparent;
+  width: 100%;
+  margin-top: 32px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.container {
+  position: relative;
+}
+.logo {
+  display: flex;
+  gap: 8px;
+  width: 172px;
+  color: #646cff;
+  text-decoration: none;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.order-button {
+  display: inline-block;
+  font-size: 16px;
+  padding: 18px 24px;
+  background: #ed3b44;
+  border-radius: 60px;
+  width: 163px;
+  height: 55px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  border: none;
+  transition: background 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+.order-button:hover {
+  background: #b21d1d;
+}

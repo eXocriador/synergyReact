@@ -1,0 +1,123 @@
+.benefits {
+  padding-bottom: 64px;
+}
+.benefits-header {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(250, 250, 250, 0.4);
+  margin-bottom: 32px;
+}
+.container-benefits {
+  display: flex;
+  flex-direction: column;
+}
+.desk {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.benefits-frame {
+  display: flex;
+  gap: 16px;
+}
+.benefits-frame-content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 64px;
+  border-radius: 20px;
+  padding: 24px;
+  max-width: 344px;
+  height: 270px;
+  background: #242527;
+}
+.icon-frame {
+  display: flex;
+  background-color: #ed3b44;
+  border-radius: 10px;
+  width: 48px;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  stroke: #fafafa;
+  fill: #ed3b44;
+}
+.benefits-icon {
+  width: 24px;
+  height: 24px;
+}
+.benefits-content {
+  display: flex;
+  flex-direction: column;
+}
+.benefits-h {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  margin-bottom: 8px;
+}
+.benefits-description {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: rgba(250, 250, 250, 0.6);
+}
+.button_work_together {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  border-radius: 60px;
+  width: 187px;
+  height: 55px;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  margin-right: auto;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+.button_work_together:hover {
+  border-color: #fafafa;
+  color: #ed3b44;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  .benefits {
+    padding-bottom: 96px;
+  }
+  .benefits-frame {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1440px) {
+  .benefits {
+    padding-bottom: 164px;
+  }
+  .container-benefits {
+    display: flex;
+  }
+  .desk {
+    margin-left: auto;
+    width: 680px;
+  }
+  .benefits-frame-content {
+    width: 284px;
+  }
+}

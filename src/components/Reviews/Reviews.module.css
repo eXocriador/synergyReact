@@ -1,0 +1,65 @@
+.reviewsSection {
+  padding-bottom: 64px;
+}
+.reviews {
+  /* container styles if needed */
+}
+.reviewsHeader {
+  font-family: "Inter Tight";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #fafafa66;
+  margin-bottom: 32px;
+}
+.btnDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+.leftBtn2,
+.rightBtn2 {
+  display: block;
+  padding: 18px;
+  border: 1px solid rgba(250, 250, 250, 0.5);
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  color: transparent;
+  position: relative;
+  background-color: transparent;
+  transition: opacity 0.3s ease;
+}
+.leftBtn2.swiper-button-disabled,
+.rightBtn2.swiper-button-disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
+.arrowBtnSvg {
+  stroke: #fafafa;
+  width: 24px;
+  height: 24px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .reviewsSection {
+    padding-bottom: 96px;
+  }
+  .btnDiv {
+    gap: 12px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1440px) {
+  .reviewsSection {
+    padding-bottom: 164px;
+  }
+  .btnDiv {
+    gap: 20px;
+  }
+}

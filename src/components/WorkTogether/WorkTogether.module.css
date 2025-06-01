@@ -1,0 +1,168 @@
+.footer {
+  width: 100%;
+  padding-top: 32px;
+  padding: 32px 0px 32px 0px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.logo_description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.pictureTextWrapper {
+  display: flex;
+  gap: 8px;
+}
+.footerAnchor picture {
+  display: block;
+  width: 44px;
+}
+.logoRed {
+  color: #ed3b44;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+.flexWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.inputTextarreaBothStyles {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: rgba(250, 250, 250, 0.6);
+  display: block;
+  background: none;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  all: unset;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.2);
+  padding-bottom: 20px;
+  width: 100%;
+}
+.status-message {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  margin-top: 4px;
+}
+.formBtn {
+  margin-top: 32px;
+  border-radius: 100%;
+  background-color: #ed3b44;
+  width: 100px;
+  height: 100px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  transition: all 0.5s;
+  flex-shrink: 0;
+}
+.formBtn:hover {
+  background-color: #e0373f;
+}
+.callMailInfo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.mailTel {
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  border-radius: 60px;
+  padding: 10px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+}
+
+/* Modal styles are in Modal.module.css */
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding-top: 85px;
+    padding-bottom: 169px;
+  }
+  .wrapper {
+    gap: 18px;
+  }
+  .logo_description {
+    font-size: 64px;
+  }
+  .footerAnchor picture {
+    width: 70px;
+  }
+  .contactForm {
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+  }
+  .flexWrapper {
+    flex-direction: row;
+    gap: 32px;
+  }
+  .inputTextarreaBothStyles {
+    width: 245px;
+  }
+  .formBtn {
+    width: 150px;
+    height: 150px;
+    margin-top: 0;
+  }
+  .callMailInfo {
+    gap: 8px;
+  }
+  .mailTel {
+    padding: 18px 32px;
+    font-size: 16px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1440px) {
+  .footer {
+    width: 100%;
+    padding-top: 85px;
+    padding-bottom: 169px;
+  }
+  .wrapper {
+    width: 1112px;
+  }
+  .logo {
+    gap: 20px;
+  }
+  .contactForm {
+    gap: 86px;
+  }
+  .formWrapper {
+    width: 390px;
+  }
+  .inputTextarreaBothStyles {
+    width: 100%;
+  }
+  .callMailInfo {
+    gap: 8px;
+  }
+  .mailTel {
+    padding: 18px 32px;
+    font-size: 16px;
+  }
+}
